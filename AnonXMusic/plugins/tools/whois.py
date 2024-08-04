@@ -26,13 +26,13 @@ def ReplyCheck(message: Message):
 
 
 infotext = (
-    " ❖ ᴜsᴇʀ sʜᴏʀᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ⏤͟͟͞͞★\n\n"
+    " 𖣐 ᴜsᴇʀ sʜᴏʀᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ⏤͟͟͞͞★\n\n"
     " ● ᴜsᴇʀ ɪᴅ ➥ {user_id}\n"
     " ● ғɪʀsᴛ ɴᴀᴍᴇ ➥ {first_name}\n"
     " ● ʟᴀsᴛ ɴᴀᴍᴇ ➥ {last_name}\n"
     " ● ᴜsᴇʀɴᴀᴍᴇ ➥ @{username}\n"
     " ● ʟᴀsᴛ sᴇᴇɴ ➥ {last_online}\n\n"
-    " ❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐"
+    " 𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹"
 )
 
 
