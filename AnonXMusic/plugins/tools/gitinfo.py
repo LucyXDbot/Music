@@ -16,8 +16,8 @@ EVAA = [
 @app.on_message(filters.command("blackpink"))
 async def blackpink(_, message):
     text = message.text[len("/blackpink") :]
-    bp(f"{text}").save(f"blackpink_{message.from_user.id}.png", caption=f"❖ ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
-    await message.reply_photo(f"blackpink_{message.from_user.id}.png", caption=f"❖ ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
+    bp(f"{text}").save(f"blackpink_{message.from_user.id}.png", caption=f"𖣐 ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹", reply_markup=InlineKeyboardMarkup(EVAA),)
+    await message.reply_photo(f"blackpink_{message.from_user.id}.png", caption=f"𖣐 ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹", reply_markup=InlineKeyboardMarkup(EVAA),)
     os.remove(f"blackpink_{message.from_user.id}.png")
 
 
@@ -26,7 +26,7 @@ async def blackpink(_, message):
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("❖ ➥ `/git tinaarobot`")
+        await message.reply_text("𖣐 ➥ `/git tinaarobot`")
         return
 
     username = message.text.split(None, 1)[1]
@@ -52,7 +52,7 @@ async def github(_, message):
                 followers = result['followers']
                 following = result['following']
 
-                caption = f"""ㅤㅤ❖ ɢɪᴛʜᴜʙ ɪɴғᴏ ᴏғ {name} ❖
+                caption = f"""ㅤㅤ𖣐 ɢɪᴛʜᴜʙ ɪɴғᴏ ᴏғ {name} 𖣐
                  
 ● ᴜsᴇʀɴᴀᴍᴇ ➥ {username}
 ● ʙɪᴏ ➥ {bio}
@@ -65,7 +65,7 @@ async def github(_, message):
 ● ғᴏʟʟᴏᴡᴇʀs ➥ {followers}
 ● ғᴏʟʟᴏᴡɪɴɢ ➥ {following}
 
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐"""
+𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐"""
 
             except Exception as e:
                 print(str(e))
