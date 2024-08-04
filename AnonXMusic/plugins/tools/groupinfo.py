@@ -28,13 +28,13 @@ async def get_group_status(_, message: Message):
     premium_acc = banned = deleted_acc = bot = 0  # You should replace these variables with actual counts.
 
     response_text = (
-        f"❖ ɢʀᴏᴜᴘ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ❖\n\n"
+        f"𖣐 ɢʀᴏᴜᴘ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 𖣐\n\n"
         f"● ɢʀᴏᴜᴘ ɴᴀᴍᴇ ➥ {group.title}\n"
         f"● ɢʀᴏᴜᴘ ɪᴅ ➥ {group.id}\n"
         f"● ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ➥ {total_members}\n"
         f"● ᴜsᴇʀɴᴀᴍᴇ ➥ @{group_username}\n"
         f"● ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ➥ \n{group_description or 'N/A'}\n\n"
-        f"● ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐"
+        f"𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹"
     )
     
     await message.reply((response_text),reply_markup=InlineKeyboardMarkup(EVAA),)
