@@ -32,7 +32,7 @@ async def _carbon(client, message):
     text = await message.reply("Processing...")
     carbon = await make_carbon(replied.text or replied.caption)
     await text.edit("**ᴜᴘʟᴏᴀᴅɪɴɢ...**")
-    await message.reply_photo(carbon, caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),
+    await message.reply_photo(carbon, caption=f"𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹, reply_markup=InlineKeyboardMarkup(EVAA),
     )
     await text.delete()
     carbon.close()
