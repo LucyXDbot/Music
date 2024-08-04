@@ -20,5 +20,5 @@ def get_current_time():
 @app.on_message(filters.command(["Time"]))
 def send_time(client, message):
     time = get_current_time()
-    client.send_message(message.chat.id, f"❖ ᴄᴜʀʀʀɴᴛ ᴛɪᴍᴇ ᴏғ ɪɴᴅɪᴀ ⏤͟͟͞͞★\n\n● {time}", caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
+    client.send_message(message.chat.id, f"𖣐 ᴄᴜʀʀʀɴᴛ ᴛɪᴍᴇ ᴏғ ɪɴᴅɪᴀ ⏤͟͟͞͞★\n\n● {time}", caption=f"𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹", reply_markup=InlineKeyboardMarkup(EVAA),)
   
